@@ -1,0 +1,142 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: arial;
+}
+
+body {
+    text-align: center;
+    background-color: #00005e;
+}
+
+h1 {
+    color: #bbbbff;
+    margin: 16px 0;
+    font-size: 4em;
+}
+
+.introduction {
+    font-size: 1.5em;
+    color: white;
+    margin: 5px 0;
+}
+
+h2 {
+    color: #9999ff;
+    font-size: 2.5em;
+    margin: 24px 0 0 0;
+}
+
+.dev-updates h2 {
+    margin: 24px 0 24px 0;
+}
+
+h3 {
+    color: #b0b0ff;
+    font-size: 2em;
+    margin: 24px 0 0 0;
+}
+
+.dev-updates h3 {
+    float: left;
+    padding: 4px 20px;
+}
+
+.dev-updates iframe {
+    margin: 12px 0 0 0;
+}
+
+p {
+    margin: 8px 0;
+}
+
+p, ul, .version-header {
+    color: white;
+    font-size: 1.3em;
+}
+
+.current-features {
+    background-color: #000044;
+    padding: 2px 0 8px 0;
+    margin: 16px 0 0 0;
+}
+
+.p-left {
+    width: 600px;
+    margin: 8px auto 24px auto;
+    text-align: left;
+    text-indent: 32px;
+}
+
+.dev-updates p {
+    font-size: 0.8em;
+    text-align: left;
+    line-height: 1.75em;
+    padding: 8px 16px;
+}
+
+.dev-updates ul {
+    list-style: none;
+    width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.dev-updates li {
+    border: dashed #8888ff 4px;
+}
+
+.character-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.character-table tr {
+    height: 200px;
+    width: 600px;
+}
+
+.character-table td {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 0;
+    position: relative;
+    background-color: #444444;
+}
+
+.char-icon {
+    width: 200px;
+    height: 200px;
+}
+
+.char-name {
+    color: white;
+    font-size: 1.5em;
+    width: 200px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+}
+
+.feature-list {
+    width: 300px;
+    text-align: left;
+    margin: 12px auto;
+}
+
+.version-info {
+    width: 800px;
+    margin: 8px auto;
+    text-align: left;
+}
+
+.version-header {
+    text-align: center;
+    width: 600px;
+    margin: 32px auto 8px auto;
+}
+
+.screenshot {
+    width: 1200px;
+    margin: 5px 0;
+}
