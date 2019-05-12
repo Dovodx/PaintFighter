@@ -92,6 +92,14 @@
                             </div>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            <img class='char-icon' src='images/GOD icon.png' alt='Icon of GOD! FEAR THE ILLUMINATI!'/>
+                            <div class='char-name'>
+                                GOD
+                            </div>
+                        </td>
+                    </tr>
             </table>
             <p>
                 As for levels:
@@ -107,7 +115,7 @@
                 <li>Party Bus</li>
             </ul>
             <div class='version-header'>
-                The current version of the game is Alpha v12.
+                The current version of the game is Alpha v13.
             </div>
             <p class='version-info'>
                 In the future, I hope to host a download link for the latest version on this site.
@@ -118,7 +126,52 @@
         </div>
         <div class='dev-updates'>
             <h2>Development Updates</h2>
-            <ul>
+            <ul class="updateList">
+                <li>
+                    <h3>5-11-19: Alpha Version 13</h3>
+                    <p>
+                        Finally got around to this. Man I am great at updating games noone knows about! Anyway, this time around
+                        we've got a new character, some important bug fixes, and some balance changes to make the game more EXCITING.
+                        Here's the list of changes:<br>
+                        <br>New Features and Balance Changes:
+                        <br>✔Made Liquid’s GN up hitbox much bigger
+                        <br>✔Increased damage and knockback growth for Liquid’s GN down
+                        <br>✔Nerfed fappy tails’ max jump force to 80 (was 150)
+                        <br>✔Buffed Rock Lobster’s GN neutral, hitbox comes out on frame 5 instead of 8
+                        <br>✔Buffed Rock Lobster’s GN down, more base knockback and knockback growth
+                        <br>✔Buffed Rock Lobster’s GN side with more knockback growth
+                        <br>✔Buffed Rock Lobster’s AN, hitbox now comes out on frame 8 instead of 11
+                        <br>✔Buffed Shaydoh’s bazooka (GN down), more damage, knockback, and kb growth, changed knockback to non-vortex (simple 45 degree angle upwards)
+                        <br>✔Nerfed Shaydoh’s bullets to have less hitstun
+                        <br>✔Buffed Shaydoh’s orbital laser and NS, both should kill closer to 100 damage
+                        <br>✔Buffed Shaydoh and Sanic’s recoveries, their Up Specials now go further and faster
+                        <br>✔Updated Dr. Tentacle’s GN side animation to only change the sprite once the hitbox is out
+                        <br>✔Nerfed Dr. Tentacle’s GN up to prevent touch-of-death juggling combos, more base knockback and kb growth, less hitstun
+                        <br>✔Nerfed Sad Sword’s GN up to prevent touch-of-death, more kb growth and less hitstun
+                        <br>✔Buffed Thundersnow’s GN neutral and GN up attacks, the lightning bolts are now MUCH bigger
+                        <br>✔Buffed Thundersnow’s GN down, GN side, and AN with more knockback growth
+                        <br>✔Add new character, GOD
+                        <br>✔Buffed Beowulf’s recovery
+                        <br>✔Increased the size of the hitbox for Beowulf’s first GN neutral attack, extends further down now
+                        <br>✔Buffed Beowulf’s attacks:</p>
+                        <ul class="innerList">
+                            <li>GN neutral has more hitstun on all hits</li>
+                            <li>GN side has a bit more kb growth</li>
+                            <li>NS has more damage and hitstun</li>
+                            <li>US has a little more kb growth</li>
+                            <li>AN has a steeper angle (more downward) and more hitstun, more base knockback, and more kb growth</li>
+                        </ul>
+                    <p>
+                        Bugs fixed:
+                        <br>✔Player tags and invincibility effects were staying around after death
+                        <br>✔New players were joining with their team displayed as 0
+                        <br>✔Fixed an error with Beowulf’s GN neutral animation, the second hit had the hitbox come out way too early
+                        <br>✔AIs had a problem with running a shit-ton of the same coroutine all at once
+                        <br>✔Camera was jerky because it was going between the two players who were furthest away, now its center point is an average of every player’s position
+                        <br>✔Party Bus had issues with the collider because it wasn’t slippery like other stages
+                        <br>✔Code for handling removed players has been updated, hopefully this fixes lobbies glitching out (doubt it)
+                    </p>
+                </li>
                 <li>
                     <h3>12-23-18: Alpha Version 12</h3>
                     <p>
@@ -136,7 +189,6 @@
                         <br>✔Beowulf’s particle effects were flipped incorrectly
                         <br>✔Sad Sword’s orb was doing no damage or knockback
                         <br>✔Rock Lobster’s special just decided to stop grabbing people, was an issue with grabs having no knockback or angle set (which they don’t need)
-                        
                     </p>
                 </li>
                 <li>

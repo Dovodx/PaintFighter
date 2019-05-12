@@ -50,7 +50,7 @@ p {
     margin: 8px 0;
 }
 
-p, ul, .version-header {
+p, .updateList, .version-header, .feature-list {
     color: white;
     font-size: 1.3em;
 }
@@ -75,14 +75,21 @@ p, ul, .version-header {
     padding: 8px 16px;
 }
 
-.dev-updates ul {
+.updateList {
     list-style: none;
     width: 800px;
     margin: 0 auto 40px auto;
 }
 
-.dev-updates li {
+.updateList li {
     border: dashed #8888ff 4px;
+}
+
+.innerList li {
+    border: none;
+    text-align: left;
+    margin: 0 0 0 32px;
+    font-size: 0.8em;
 }
 
 .character-table {
